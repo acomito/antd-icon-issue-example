@@ -9,7 +9,6 @@ import { createError, isInstance } from 'apollo-errors';
 import { SchemaMutations, SchemaTypes, userId } from 'meteor-apollo-accounts';
 import { isAuthenticatedResolver, isAdminResolver } from '../base-resolvers';
 // COLLECTIONS
-import { Posts } from '../Post'
 import { appConfig } from '/imports/modules/config'
 // OTHER
 import { addInvitation } from '../api-helpers';
@@ -159,8 +158,5 @@ export const UserResolvers = {
     _id: ({ _id }) => _id,
     emails: ({ emails }) => emails,
     roles: ({ roles }) => roles,
-    posts({ _id }, args, context) {
-      return Posts.find({ ownerId: _id }).fetch();
-    },
   },
 };

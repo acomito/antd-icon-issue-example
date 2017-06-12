@@ -1,14 +1,7 @@
 import { Random } from 'meteor/random';
 import { UserResolvers, UserSchema } from './User';
-import { PostResolvers, PostSchema } from './Post';
-import { InviteResolvers, InviteSchema } from './Invite';
-import { MessageResolvers, MessageSchema } from './Message';
 import { merge } from 'lodash';
-import { ClientResolvers, ClientSchema } from './Client';
-import { FacilityResolvers, FacilitySchema } from './Facility';
-import { ManufacturerResolvers, ManufacturerSchema } from './Manufacturer';
-import { MachineModelResolvers, MachineModelSchema } from './MachineModel';
-import { MachineResolvers, MachineSchema } from './Machine';
+
 
 
 export const BaseSchemas = [`
@@ -77,26 +70,26 @@ export const BaseResolvers = {
 export const typeDefs = [
 	...BaseSchemas,
 	...UserSchema, 
-	...PostSchema,
+/*	...PostSchema,
 	...MessageSchema,
 	...ClientSchema,
 	...FacilitySchema,
 	...ManufacturerSchema,
 	...MachineModelSchema,
-	...MachineSchema
+	...MachineSchema*/
 ];
 
 
 export const resolvers = merge(
 	BaseResolvers,
 	UserResolvers, 
-	PostResolvers,
+/*	PostResolvers,
 	MessageResolvers,
 	ClientResolvers,
 	FacilityResolvers,
 	ManufacturerResolvers,
 	MachineModelResolvers,
-	MachineResolvers
+	MachineResolvers*/
 );
 
 

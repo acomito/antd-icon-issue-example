@@ -12,10 +12,6 @@ import AppRoutes  from './routes.js';
 // THEME
 import enUS from 'antd/lib/locale-provider/en_US';
 import LocaleProvider from 'antd/lib/locale-provider'
-import Raven from 'raven-js';
-
-
-/*Raven.config(Meteor.settings.public.sentryUrl).install();*/
 
 
 // INJECT MAIN APP

@@ -1,0 +1,15 @@
+{
+	"galaxy.meteor.com": {
+	    "env": {
+	      "ROOT_URL": "https://spacebug.meteorapp.com"
+	    }
+	},
+  	"public":{
+		"config": {
+			"appName": "spacebug",
+			"supportEmail": "support@spacebug.com",
+			"supportName": "Support"
+		}
+	},
+	"private": {}
+}
