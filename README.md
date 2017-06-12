@@ -17,9 +17,16 @@ Check `package.json` for specific versions
 
 ### Running it
 
+1. download meteor if you do not have it
+2. clone repo
+3. ~cd into the root directory
+4. run 
 ```
 meteor npm install
-meteor
+```
+5. after npm packages install, run an npm start script with
+```
+meteor npm start
 ```
 
 GraphiQL is enabled at [/graphiql](http://localhost:3000/graphiql).
