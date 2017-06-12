@@ -28,6 +28,7 @@ meteor npm install
 ```
 meteor npm start
 ```
+6. it can take a second on the first build, but after it starts up you should have an app running at http://localhost:3000/
 
 GraphiQL is enabled at [/graphiql](http://localhost:3000/graphiql).
 
