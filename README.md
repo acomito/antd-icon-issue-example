@@ -1,4 +1,4 @@
-# SpaceBug (Meteor + Apollo + React + Antd boilerplate)
+# antd icon trouble, via ===>  SpaceBug (Meteor + Apollo + React + Antd boilerplate)
 
 A simple kit to start experimenting with Apollo, Meteor and React.
 
