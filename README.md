@@ -20,7 +20,7 @@ Check `package.json` for specific versions
 1. download meteor if you do not have it
 2. clone repo
 3. ~cd into the root directory
-4. run 
+4. install all node modules by running: 
 ```
 meteor npm install
 ```
