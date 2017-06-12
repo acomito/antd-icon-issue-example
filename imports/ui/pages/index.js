@@ -4,7 +4,7 @@ import React from 'react';
 import Icon from 'antd/lib/icon';
 import Card from 'antd/lib/card';
 // MODULES
-import { handleLogin } from '/imports/modules/helpers'
+import 'antd/dist/antd.css'; // new line of code
 
 class LoginPage extends React.Component {
 
